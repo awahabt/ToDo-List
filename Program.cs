@@ -18,7 +18,7 @@ namespace ToDo_List
             {
                 if (toDoList.Count > 0)
                 {
-                    Console.WriteLine("---------------\nTo-Do-List: \n---------------\n");
+                    Console.WriteLine("-----------\nTo-Do-List: \n-----------\n");
                     for (int i = 0; i < toDoList.Count; i++)
                     {
                         Console.WriteLine(" > " + toDoList[i]);
@@ -27,17 +27,17 @@ namespace ToDo_List
                 }
                 else
                 {
-                    Console.WriteLine("------------------------------------------------");
+                    Console.WriteLine("-----------------------------------------------");
                     Console.WriteLine("You Currently have no task in your To-Do list.");
-                    Console.WriteLine("------------------------------------------------");
+                    Console.WriteLine("-----------------------------------------------");
                     Console.WriteLine("");
                 }
 
-                Console.WriteLine("-------------");
+                Console.WriteLine("--------------");
                 Console.WriteLine("1. Add Task");
                 Console.WriteLine("2. Delete Task");
                 Console.WriteLine("3. Exit");
-                Console.WriteLine("_____________\n");
+                Console.WriteLine("--------------\n");
 
                 int choice = int.Parse(Console.ReadLine());
 
@@ -49,18 +49,23 @@ namespace ToDo_List
                     string task = Console.ReadLine();
                     toDoList.Add(task);
                     Console.Clear();
+                    Console.WriteLine("--------------------------");
                     Console.WriteLine("Task added Successfully!");
+                    Console.WriteLine("--------------------------\n");
                 }
                 else if(choice == (int)UserChoice.DeleteTask)
                 {
                     if(toDoList.Count > 0)
                     {
+                        Console.WriteLine("--------------------------------------------------");
                         Console.WriteLine("Enter the number of the task you want to Delete: ");
-                        for(int i = 0; i < toDoList.Count; i++)
+                        Console.WriteLine("--------------------------------------------------\n");
+                        for (int i = 0; i < toDoList.Count; i++)
                         {
                             Console.WriteLine("(" + (i + 1) + ")" + toDoList[i]);
                         }
                     }
+                    Console.WriteLine("\n");
                     int taskNum = int.Parse(Console.ReadLine());
                     taskNum--;
 
@@ -68,7 +73,9 @@ namespace ToDo_List
                     {
                         toDoList.RemoveAt(taskNum);
                         Console.Clear();
-                        Console.WriteLine("Task Deleted Successfully!\n");
+                        Console.WriteLine("----------------------------");
+                        Console.WriteLine("Task Deleted Successfully!");
+                        Console.WriteLine("----------------------------");
                     }
                     else
                     {
