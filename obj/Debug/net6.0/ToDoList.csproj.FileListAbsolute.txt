@@ -12,3 +12,17 @@ D:\Learning\C#\ToDoList\obj\Debug\net6.0\refint\ToDoList.dll
 D:\Learning\C#\ToDoList\obj\Debug\net6.0\ToDoList.pdb
 D:\Learning\C#\ToDoList\obj\Debug\net6.0\ToDoList.genruntimeconfig.cache
 D:\Learning\C#\ToDoList\obj\Debug\net6.0\ref\ToDoList.dll
+D:\repositories\ToDo-List\bin\Debug\net6.0\ToDoList.exe
+D:\repositories\ToDo-List\bin\Debug\net6.0\ToDoList.deps.json
+D:\repositories\ToDo-List\bin\Debug\net6.0\ToDoList.runtimeconfig.json
+D:\repositories\ToDo-List\bin\Debug\net6.0\ToDoList.dll
+D:\repositories\ToDo-List\bin\Debug\net6.0\ToDoList.pdb
+D:\repositories\ToDo-List\obj\Debug\net6.0\ToDoList.GeneratedMSBuildEditorConfig.editorconfig
+D:\repositories\ToDo-List\obj\Debug\net6.0\ToDoList.AssemblyInfoInputs.cache
+D:\repositories\ToDo-List\obj\Debug\net6.0\ToDoList.AssemblyInfo.cs
+D:\repositories\ToDo-List\obj\Debug\net6.0\ToDoList.csproj.CoreCompileInputs.cache
+D:\repositories\ToDo-List\obj\Debug\net6.0\ToDoList.dll
+D:\repositories\ToDo-List\obj\Debug\net6.0\refint\ToDoList.dll
+D:\repositories\ToDo-List\obj\Debug\net6.0\ToDoList.pdb
+D:\repositories\ToDo-List\obj\Debug\net6.0\ToDoList.genruntimeconfig.cache
+D:\repositories\ToDo-List\obj\Debug\net6.0\ref\ToDoList.dll
